@@ -34,5 +34,6 @@ public class Calculator{
 
         System.out.println(divide(num1,num2));
 
+        System.out.println(subtract(num1,num2));
     }
 }
