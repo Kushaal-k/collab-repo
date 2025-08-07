@@ -5,6 +5,11 @@ public class Calculator{
     {
         return a+b;
     }
+
+    public static int mul(int a , int b){
+
+        return a*b;
+    }
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -12,5 +17,6 @@ public class Calculator{
         int num2 = sc.nextInt();
 
         System.out.println(add(num1,num2)); 
+        System.out.println(mul(num1,num2));
     }
 }
